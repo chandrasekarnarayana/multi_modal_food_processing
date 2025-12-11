@@ -53,23 +53,16 @@ Quick pipeline after training:
 bash run_after_training.sh
 ```
 
-## Example Output Figures
-- ![Example Video Frames](./results/figures/example_video_frames.png)  
-  Synthetic video snippets per class (fast → medium → slow flow); `example_video_frames_v2.png` provides an alternate sampling.
-- ![Example Rheology Curves](./results/figures/example_rheology_curves.png)  
-  Simulated rheology decay profiles by class; see `rheology_by_class_v2.png` for a denser overlay.
-- ![Training Curves](./results/figures/training_curves.png)  
-  Fusion training/validation accuracy; modality ablations are in `training_curves_video_only.png` and `training_curves_rheo_only.png`.
-- ![Confusion Matrix](./results/figures/confusion_matrix.png)  
-  Test-set confusion matrix showing class separability and error modes.
-- ![UMAP Embeddings](./results/figures/fused_embeddings_umap.png)  
-  Fused embedding manifold with clear clustering by viscosity class.
-- ![Active Learning (Uncertainty)](./results/figures/active_learning_curve.png)  
-  Validation accuracy across 7 rounds for uncertainty acquisition.
-- ![Active Learning (Random)](./results/figures/active_learning_curve_random.png)  
-  Matching curve for the random baseline.
-- ![Active Learning Overlay](./results/figures/active_learning_curve_overlay.png)  
-  Overlay comparison of uncertainty vs random acquisition.
+## Example Output Figures (generated locally, not versioned)
+- Video snippets per class: `results/figures/example_video_frames.png` (alt: `example_video_frames_v2.png`).
+- Rheology decay by class: `results/figures/example_rheology_curves.png` (alt: `rheology_by_class_v2.png`).
+- Training curves: `results/figures/training_curves.png` (ablations: `training_curves_video_only.png`, `training_curves_rheo_only.png`).
+- Confusion matrix: `results/figures/confusion_matrix.png`.
+- UMAP embeddings: `results/figures/fused_embeddings_umap.png`.
+- Active learning curves: `results/figures/active_learning_curve.png` (uncertainty), `results/figures/active_learning_curve_random.png` (random), and overlay `results/figures/active_learning_curve_overlay.png`.
+- Additional examples: `results/figures/video_examples.png`, `results/figures/rheology_curves_by_class.png`.
+
+If the images are missing on GitHub, run the pipelines above (or `bash run_after_training.sh`) to regenerate them locally.
 
 ## Results and Insights
 - Dataset size: 900 samples (train 630 / val 135 / test 135), balanced across three viscosity classes; the active-learning pool starts with 63 labelled points (10%) to model low-cost beginnings.
