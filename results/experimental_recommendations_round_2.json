@@ -1,0 +1,272 @@
+[
+  {
+    "sample_index": 18,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 79,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 311,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 94,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 310,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 90,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 87,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 86,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 292,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 71,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 230,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 17,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 305,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 302,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 96,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 308,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 27,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 304,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 102,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 216,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 104,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 14,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 6,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 293,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 301,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 227,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 317,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 222,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 81,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  },
+  {
+    "sample_index": 103,
+    "recommendation": "Acquire modalities with highest expected information per cost",
+    "modality_importance": {
+      "video": 1.0,
+      "rheology": 0.7,
+      "microscopy": 0.0
+    }
+  }
+]

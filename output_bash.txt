@@ -1,0 +1,81 @@
+=== 1) Data preparation ===
+Shapes:
+ videos: (900, 20, 64, 64, 1)
+ rheology: (900, 100)
+ microscopy: (900, 128, 128, 1)
+ labels_class: (900,)
+ labels_reg: (900, 2)
+Saved metadata -> data/processed/metadata_train.json
+Saved metadata -> data/processed/metadata_val.json
+Saved metadata -> data/processed/metadata_test.json
+=== 2) Training: fusion (baseline) ===
+Epoch 1: train_loss=6.3620, train_acc=0.316, val_loss=2.4947, val_acc=0.311, val_mae=1.0212
+Saved best model to results/models/best_model_fusion.pt
+Epoch 2: train_loss=2.8829, train_acc=0.298, val_loss=2.5602, val_acc=0.326, val_mae=0.9837
+Saved best model to results/models/best_model_fusion.pt
+Epoch 3: train_loss=2.9819, train_acc=0.348, val_loss=2.5028, val_acc=0.311, val_mae=0.9747
+Epoch 4: train_loss=2.8886, train_acc=0.330, val_loss=2.4843, val_acc=0.326, val_mae=1.0471
+Saved best model to results/models/best_model_fusion.pt
+Epoch 5: train_loss=2.7947, train_acc=0.310, val_loss=2.5700, val_acc=0.326, val_mae=1.0986
+Saved best model to results/models/best_model_fusion.pt
+Epoch 6: train_loss=2.7266, train_acc=0.367, val_loss=2.4659, val_acc=0.622, val_mae=1.0585
+Saved best model to results/models/best_model_fusion.pt
+Epoch 7: train_loss=2.4432, train_acc=0.516, val_loss=1.7266, val_acc=0.637, val_mae=0.7624
+Saved best model to results/models/best_model_fusion.pt
+Epoch 8: train_loss=1.4090, train_acc=0.667, val_loss=1.3487, val_acc=0.622, val_mae=0.6761
+Epoch 9: train_loss=1.1420, train_acc=0.705, val_loss=0.6951, val_acc=0.741, val_mae=0.3443
+Saved best model to results/models/best_model_fusion.pt
+Epoch 10: train_loss=1.0772, train_acc=0.757, val_loss=0.5485, val_acc=0.852, val_mae=0.2758
+Saved best model to results/models/best_model_fusion.pt
+Epoch 11: train_loss=1.0622, train_acc=0.754, val_loss=0.4684, val_acc=0.911, val_mae=0.2528
+Saved best model to results/models/best_model_fusion.pt
+Epoch 12: train_loss=0.7530, train_acc=0.889, val_loss=0.6345, val_acc=0.763, val_mae=0.3608
+Saved training metrics to results/training_metrics_fusion.csv
+Saved training curves to results/figures/training_curves_fusion.png
+=== 3) Training: video_only ablation ===
+Epoch 1: train_loss=4.9153, train_acc=0.325, val_loss=2.8528, val_acc=0.311, val_mae=1.0452
+Saved best model to results/models/best_model_video_only.pt
+Epoch 2: train_loss=3.2642, train_acc=0.338, val_loss=2.5392, val_acc=0.326, val_mae=1.0183
+Saved best model to results/models/best_model_video_only.pt
+Epoch 3: train_loss=3.0322, train_acc=0.321, val_loss=2.4745, val_acc=0.363, val_mae=1.0131
+Saved best model to results/models/best_model_video_only.pt
+Epoch 4: train_loss=2.7457, train_acc=0.360, val_loss=2.4853, val_acc=0.326, val_mae=1.0163
+Epoch 5: train_loss=2.6853, train_acc=0.341, val_loss=2.4847, val_acc=0.311, val_mae=1.0360
+Epoch 6: train_loss=2.6499, train_acc=0.349, val_loss=2.4587, val_acc=0.541, val_mae=0.9949
+Saved best model to results/models/best_model_video_only.pt
+Epoch 7: train_loss=2.6428, train_acc=0.373, val_loss=2.3867, val_acc=0.326, val_mae=1.0076
+Epoch 8: train_loss=2.3033, train_acc=0.503, val_loss=1.6630, val_acc=0.541, val_mae=0.7161
+Saved best model to results/models/best_model_video_only.pt
+Epoch 9: train_loss=1.6158, train_acc=0.610, val_loss=1.2165, val_acc=0.585, val_mae=0.5275
+Saved best model to results/models/best_model_video_only.pt
+Epoch 10: train_loss=1.3299, train_acc=0.657, val_loss=1.0889, val_acc=0.585, val_mae=0.5128
+Saved best model to results/models/best_model_video_only.pt
+Epoch 11: train_loss=1.1822, train_acc=0.751, val_loss=0.8937, val_acc=0.733, val_mae=0.4020
+Saved best model to results/models/best_model_video_only.pt
+Epoch 12: train_loss=1.0318, train_acc=0.802, val_loss=0.9308, val_acc=0.696, val_mae=0.4259
+Saved training metrics to results/training_metrics_video_only.csv
+Saved training curves to results/figures/training_curves_video_only.png
+=== 4) Training: rheology_only ablation ===
+Epoch 1: train_loss=4.6873, train_acc=0.351, val_loss=2.5066, val_acc=0.363, val_mae=1.0134
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 2: train_loss=2.8384, train_acc=0.337, val_loss=2.5498, val_acc=0.311, val_mae=0.9907
+Epoch 3: train_loss=2.7730, train_acc=0.330, val_loss=2.5290, val_acc=0.326, val_mae=0.9713
+Epoch 4: train_loss=2.6885, train_acc=0.357, val_loss=2.4576, val_acc=0.326, val_mae=1.0212
+Epoch 5: train_loss=2.5946, train_acc=0.395, val_loss=2.2288, val_acc=0.600, val_mae=0.9102
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 6: train_loss=1.7141, train_acc=0.641, val_loss=0.7860, val_acc=0.644, val_mae=0.2820
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 7: train_loss=1.2318, train_acc=0.687, val_loss=0.7471, val_acc=0.704, val_mae=0.3709
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 8: train_loss=0.7537, train_acc=0.873, val_loss=0.5130, val_acc=0.881, val_mae=0.3014
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 9: train_loss=0.7250, train_acc=0.894, val_loss=0.3198, val_acc=0.919, val_mae=0.2030
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 10: train_loss=0.6448, train_acc=0.887, val_loss=0.3047, val_acc=0.933, val_mae=0.2162
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 11: train_loss=0.8872, train_acc=0.817, val_loss=0.2542, val_acc=0.970, val_mae=0.1913
+Saved best model to results/models/best_model_rheo_only.pt
+Epoch 12: train_loss=0.7699, train_acc=0.881, val_loss=0.2879, val_acc=0.933, val_mae=0.2135
+Saved training metrics to results/training_metrics_rheo_only.csv
+Saved training curves to results/figures/training_curves_rheo_only.png
+=== 5) Evaluation on test set (uses latest best_model.pt) ===

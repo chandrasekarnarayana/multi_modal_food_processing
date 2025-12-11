@@ -1,0 +1,47 @@
+# Bytecode and compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Packaging / build
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Logs and outputs
+logs/
+results/logs/
+results/models/
+results/figures/
+*.log
+
+# Data artifacts
+checkpoints/
+outputs/
+data/processed/
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Cache
+.cache/
+**/__pycache__/
