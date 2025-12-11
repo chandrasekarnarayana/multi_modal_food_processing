@@ -55,21 +55,21 @@ bash run_after_training.sh
 
 ## Example Output Figures
 - ![Example Video Frames](results/figures/example_video_frames.png)  
-  Example synthetic video sequences for each viscosity class. Frames demonstrate visually distinct dynamics: fast changes (low viscosity), moderate evolution (medium), and slow, thick movement (high viscosity).
+  Synthetic video snippets per class (fast → medium → slow flow); `example_video_frames_v2.png` provides an alternate sampling.
 - ![Example Rheology Curves](results/figures/example_rheology_curves.png)  
-  Simulated rheology curves grouped by class. Each class follows a different decay profile, reflecting realistic low/medium/high viscosity regimes with noise and batch variation.
+  Simulated rheology decay profiles by class; see `rheology_by_class_v2.png` for a denser overlay.
 - ![Training Curves](results/figures/training_curves.png)  
-  Training and validation accuracy across epochs. Shows the learning progression of the fusion model and highlights stability, convergence, and potential overfitting patterns.
+  Fusion training/validation accuracy; modality ablations are in `training_curves_video_only.png` and `training_curves_rheo_only.png`.
 - ![Confusion Matrix](results/figures/confusion_matrix.png)  
-  Confusion matrix on the test set, showing class separability and the most confusable classes.
+  Test-set confusion matrix showing class separability and error modes.
 - ![UMAP Embeddings](results/figures/fused_embeddings_umap.png)  
-  UMAP projection of fused multi-modal embeddings. Clear clustering indicates the model learns meaningful structure–function relationships from video + rheology inputs.
-- ![Active Learning Curve](results/figures/active_learning_curve.png)  
-  Active learning performance across acquisition rounds, showing how accuracy changes with labelled samples and how AL can reduce labelling cost.
-- ![Rheology by Class](results/figures/rheology_by_class.png)  
-  Overlay of raw rheology curves per class, illustrating intra-class variation and inter-class trends the model learns from.
-- ![Active Learning Curve Overlay](results/figures/active_learning_curve_overlay.png)  
-  Comparison of different AL acquisition strategies.
+  Fused embedding manifold with clear clustering by viscosity class.
+- ![Active Learning (Uncertainty)](results/figures/active_learning_curve.png)  
+  Validation accuracy across 7 rounds for uncertainty acquisition.
+- ![Active Learning (Random)](results/figures/active_learning_curve_random.png)  
+  Matching curve for the random baseline.
+- ![Active Learning Overlay](results/figures/active_learning_curve_overlay.png)  
+  Overlay comparison of uncertainty vs random acquisition.
 
 ## Results and Insights
 - Dataset size: 900 samples (train 630 / val 135 / test 135), balanced across three viscosity classes; the active-learning pool starts with 63 labelled points (10%) to model low-cost beginnings.
