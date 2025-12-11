@@ -54,21 +54,21 @@ bash run_after_training.sh
 ```
 
 ## Example Output Figures
-- ![Example Video Frames](results/figures/example_video_frames.png)  
+- ![Example Video Frames](./results/figures/example_video_frames.png)  
   Synthetic video snippets per class (fast → medium → slow flow); `example_video_frames_v2.png` provides an alternate sampling.
-- ![Example Rheology Curves](results/figures/example_rheology_curves.png)  
+- ![Example Rheology Curves](./results/figures/example_rheology_curves.png)  
   Simulated rheology decay profiles by class; see `rheology_by_class_v2.png` for a denser overlay.
-- ![Training Curves](results/figures/training_curves.png)  
+- ![Training Curves](./results/figures/training_curves.png)  
   Fusion training/validation accuracy; modality ablations are in `training_curves_video_only.png` and `training_curves_rheo_only.png`.
-- ![Confusion Matrix](results/figures/confusion_matrix.png)  
+- ![Confusion Matrix](./results/figures/confusion_matrix.png)  
   Test-set confusion matrix showing class separability and error modes.
-- ![UMAP Embeddings](results/figures/fused_embeddings_umap.png)  
+- ![UMAP Embeddings](./results/figures/fused_embeddings_umap.png)  
   Fused embedding manifold with clear clustering by viscosity class.
-- ![Active Learning (Uncertainty)](results/figures/active_learning_curve.png)  
+- ![Active Learning (Uncertainty)](./results/figures/active_learning_curve.png)  
   Validation accuracy across 7 rounds for uncertainty acquisition.
-- ![Active Learning (Random)](results/figures/active_learning_curve_random.png)  
+- ![Active Learning (Random)](./results/figures/active_learning_curve_random.png)  
   Matching curve for the random baseline.
-- ![Active Learning Overlay](results/figures/active_learning_curve_overlay.png)  
+- ![Active Learning Overlay](./results/figures/active_learning_curve_overlay.png)  
   Overlay comparison of uncertainty vs random acquisition.
 
 ## Results and Insights
